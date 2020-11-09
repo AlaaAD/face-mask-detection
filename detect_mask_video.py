@@ -116,7 +116,7 @@ while True:
 		cv2.rectangle(frame, (startX, startY), (endX, endY), color, 2)
 
 	# show the output frame
-	cv2.imshow("Frame", frame)
+	cv2.imshow("Live by ALAA_AD", frame)
 	key = cv2.waitKey(1) & 0xFF
 
 	# if the `q` key was pressed, break from the loop
